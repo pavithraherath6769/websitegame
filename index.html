@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="resetstylesheet" href="css/reststyle.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+</head>
+<body>
+    <div class='header'>
+        <h1>Play the greatest game!!!</h1>
+        <h2> Choose your character</h2>
+
+    </div>
+
+    <div class = 'interface'>
+        <a href="#" onclick="GameManager.setGameStart('Batman')">
+            <img src="img/heros/batman.png" alt="batman">
+            <div>
+                <h3>BATMAN</h3>
+                <p>Batman has higher health and stamina</p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Robin')">
+            <img src="img/heros/robin.png" alt="robin">
+            <div>
+                <h3>ROBIN</h3>
+                <p>Robin has higher STAMINA and SPEED</p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Robo')">
+            <img src="img/heros/robo.png" alt="robo">
+            <div>
+                <h3>ROBOT</h3>
+                <p>Robo has BOMBS</p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Wonderwoman')">
+            <img src="img/heros/wonderwoman.png" alt="wonderwoman">
+            <div>
+                <h3>WONDERWOMAN</h3>
+                <p> wonderwoman is well rounded fighter</p>
+            </div>
+        </a>
+
+    </div>
+
+    <div class = 'action'>
+
+    </div>
+
+    <div class = 'arena'>
+
+    </div>
+
+    <div class = 'enemy'>
+
+    </div>
+</body>
+
+</html>
