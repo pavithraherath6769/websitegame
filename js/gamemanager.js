@@ -44,7 +44,7 @@ let GameManager = {
         let getActions = document.querySelector('.action');
         let getEnemy = document.querySelector('.enemy');
         // create enemy!
-        let enemy00 = new Enemy("Meta", 100, 50, 100, 60, 100);
+        let enemy00 = new Enemy("Meta", 200, 50, 100, 60, 100);
         let enemy01 = new Enemy("Queen", 200, 150, 100, 60, 400);
         //random enemy 0 and 1
         let chooseRandomEnemy = Math.floor(Math.random()* Math.floor(2));
